@@ -8,32 +8,32 @@ if none found, remove last piece and attempt with next
 
 public class Solver {
 
-    Puzzle.Piece piece1 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.Man, Puzzle.Type.WineBottle, Puzzle.Type.BarTender, Puzzle.Type.BeerGlass
+    Piece piece1 = new Piece(new Type[] {
+            Type.Man, Type.WineBottle, Type.BarTender, Type.BeerGlass
     });
-    Puzzle.Piece piece2 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.BeerGlass, Puzzle.Type.BarTender, Puzzle.Type.Man, Puzzle.Type.IHeartBeer
+    Piece piece2 = new Piece(new Type[] {
+            Type.BeerGlass, Type.BarTender, Type.Man, Type.IHeartBeer
     });
-    Puzzle.Piece piece3 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.BeerGlass, Puzzle.Type.Band, Puzzle.Type.IHeartBeer, Puzzle.Type.WineBottle
+    Piece piece3 = new Piece(new Type[] {
+            Type.BeerGlass, Type.Band, Type.IHeartBeer, Type.WineBottle
     });
-    Puzzle.Piece piece4 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.IHeartBeer, Puzzle.Type.BeerGlass, Puzzle.Type.Man, Puzzle.Type.Band
+    Piece piece4 = new Piece(new Type[] {
+            Type.IHeartBeer, Type.BeerGlass, Type.Man, Type.Band
     });
-    Puzzle.Piece piece5 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.BarTender, Puzzle.Type.Band, Puzzle.Type.Man, Puzzle.Type.WineBottle
+    Piece piece5 = new Piece(new Type[] {
+            Type.BarTender, Type.Band, Type.Man, Type.WineBottle
     });
-    Puzzle.Piece piece6 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.BeerGlass, Puzzle.Type.BarTender, Puzzle.Type.Man, Puzzle.Type.WineBottle
+    Piece piece6 = new Piece(new Type[] {
+            Type.BeerGlass, Type.BarTender, Type.Man, Type.WineBottle
     });
-    Puzzle.Piece piece7 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.WineBottle, Puzzle.Type.BarTender, Puzzle.Type.IHeartBeer, Puzzle.Type.Band
+    Piece piece7 = new Piece(new Type[] {
+            Type.WineBottle, Type.BarTender, Type.IHeartBeer, Type.Band
     });
-    Puzzle.Piece piece8 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.BarTender, Puzzle.Type.IHeartBeer, Puzzle.Type.BeerGlass, Puzzle.Type.Band
+    Piece piece8 = new Piece(new Type[] {
+            Type.BarTender, Type.IHeartBeer, Type.BeerGlass, Type.Band
     });
-    Puzzle.Piece piece9 = new Puzzle.Piece(new Puzzle.Type[] {
-            Puzzle.Type.Band, Puzzle.Type.Man, Puzzle.Type.WineBottle, Puzzle.Type.IHeartBeer
+    Piece piece9 = new Piece(new Type[] {
+            Type.Band, Type.Man, Type.WineBottle, Type.IHeartBeer
     });
 
 }
