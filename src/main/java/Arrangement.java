@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Arrangement {
     public Arrangement(RotatedPiece[] arrangement) {
         this.arrangement = arrangement;
@@ -32,5 +34,12 @@ public class Arrangement {
         Type piece2Type = arrangement[piece2Idx].faces()[face2];
         if (piece1Type == piece2Type) return 1;
         else return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Arrangement{" +
+                "arrangement=" + Arrays.toString(arrangement) +
+                "\n}";
     }
 }

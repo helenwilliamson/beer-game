@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class RotatedPiece {
     private Type[] faces = new Type[4];
 
@@ -9,5 +11,11 @@ public class RotatedPiece {
 
     public Type[] faces() {
         return faces;
+    }
+
+    @Override
+    public String toString() {
+        return "\n\tPiece=" +
+                "" + Arrays.toString(faces);
     }
 }
