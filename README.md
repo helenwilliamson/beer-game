@@ -2,4 +2,4 @@
 
 Can you fit all 9 tiles together with the sides matching?
 
-![Beer Game][src/main/resources/game.jpg]
+![Beer Game](https://github.com/helenwilliamson/beer-game/blob/master/src/main/resources/game.jpg)
